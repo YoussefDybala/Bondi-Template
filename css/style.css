@@ -246,3 +246,31 @@ color: var(--grean-color);
         font-weight: bold;
     }
   /* //////////////// end team  */
+
+  /* ////////////// start project */
+  .startP {
+    background-color: var(--main-color);
+    color: white;
+    height: 300px;
+  }
+  /* ////////////// end project */
+
+  /* ///////////////////// start blog  */
+ .blog .row {
+    gap: 20px;
+ }
+  .blog .row div {
+        border-radius: 8px;
+        border: 1px solid #d1d0d0;
+        flex-direction: column;
+        text-align: left;
+        width: 400px;
+  }
+  .blog .row div img{
+    width: 106%;
+    border-radius: 8px;
+  }
+  .blog .row div p{
+    position: relative;
+  }
+  /* ///////////////////// end blog  */
