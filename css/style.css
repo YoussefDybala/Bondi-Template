@@ -264,13 +264,31 @@ color: var(--grean-color);
         border: 1px solid #d1d0d0;
         flex-direction: column;
         text-align: left;
-        width: 400px;
+        width: 420px;
   }
   .blog .row div img{
-    width: 106%;
-    border-radius: 8px;
+      width: 106%;
+      border-radius: 8px;
+    }
+    @media (max-width :768px) {
+      .blog .row div {
+          border-radius: 8px;
+          border: 1px solid #d1d0d0;
+          flex-direction: column;
+          text-align: left;
+          width: 320px;
+    }
+    .blog .row div img{
+        width: 109%;
+        border-radius: 8px;
+      }
   }
-  .blog .row div p{
+    .blog .row div p{
     position: relative;
   }
+  .blog  span{
+    width: fit-content;
+    margin: auto;
+    padding: 10px;
+}
   /* ///////////////////// end blog  */
